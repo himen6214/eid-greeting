@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eid Mubarak | Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="intro-screen" aria-label="Eid greeting overlay">
+    <div class="intro-content">
+      <div class="intro-moon">☾</div>
+      <h1 class="intro-title">عيد مبارك</h1>
+      <p class="intro-sub">Eid Mubarak to Rehan and his family</p>
+      <div class="intro-stars">
+        <span></span><span></span><span></span><span></span><span></span>
+      </div>
+    </div>
+  </div>
+
+  <audio id="intro-audio" preload="auto" aria-hidden="true">
+    <source src="data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAESsAACJWAAACABAAZGF0YQAAAAAAAP//AACAgICAgP//AAD//wAAgICAgICAgP//AACAgICAgICAgP//AACAgICAgICAgICAgICAgP//AACAgICAgICAgICAgICAgICAgICAgICAgICAgP//AACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg" type="audio/wav">
+  </audio>
+
+  <audio id="gift-audio" preload="auto" aria-hidden="true">
+    <source src="data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAESsAACJWAAACABAAZGF0YQAAAAAAAP//AACAgICAgICAgP//AACAgICAgICAgICAgICAgP//AACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgP//AACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg" type="audio/wav">
+  </audio>
+
+  <div class="sky" aria-hidden="true">
+    <div class="moon"></div>
+    <div class="stars"></div>
+  </div>
+
+  <header class="topbar">
+    <div class="brand" aria-label="Eid Mubarak logo">
+      <span class="brand-icon">☾</span>
+      <span class="brand-text">عيد مبارك</span>
+      <span class="brand-icon">★</span>
+    </div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="reminders.html">Reminders</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__content">
+        <p class="eyebrow">Eid al-Fitr 2026</p>
+        <h1>Eid Mubarak</h1>
+        <p class="lead">Aapko aur aapke parivaar ko dil se Eid Mubarak. Allah aapki zindagi ko khushiyon aur barkat se bhar de.</p>
+        <p class="tagline-inline">This website is made for Rehan and his family.</p>
+        <p class="typing">Aaj hum dua karte hain <span id="typewriter"></span><span class="cursor">|</span></p>
+        <div class="cta-row">
+          <a class="btn primary" href="reminders.html">Open Your Eid Gift 🎁</a>
+          <a class="btn ghost" href="#blessings">Dua padhe</a>
+        </div>
+        <div class="hero__meta">
+          <span class="pill">Maghrib: 6:42 PM</span>
+          <span class="pill">Iftaar & chai: 7:30 PM</span>
+          <span class="pill">Family dua circle: 9:00 PM</span>
+        </div>
+      </div>
+      <div class="hero__card">
+        <p class="card-title">Today's Thought</p>
+        <p class="card-body">"Khushi baantne se barhti hai—ek call, ek mithai, ek muskurahat."</p>
+        <a href="#gatherings" class="card-link">Milne ke tareeqe dekho</a>
+      </div>
+    </section>
+
+    <section id="blessings" class="section split">
+      <div class="section__text">
+        <p class="eyebrow">Blessings</p>
+        <h2>Warm Blessings</h2>
+        <p>Yahan se dua copy karo, apni line jodo aur kisi apne ko bhej do.</p>
+        <div class="blessing-list">
+          <div class="blessing">Aapko aur aapke parivaar ko dil se Eid Mubarak.</div>
+          <div class="blessing">Allah aapki zindagi mein hamesha khushiyan laaye.</div>
+          <div class="blessing">Yeh Eid aapke ghar mein sukoon aur barkat laaye.</div>
+          <div class="blessing">Allah aapko sehat, khushi aur rehmat ata farmaaye.</div>
+        </div>
+      </div>
+      <div class="section__panel">
+        <div class="panel-card">
+          <p class="eyebrow">Plan</p>
+          <h3>Celebrate with Kindness</h3>
+          <ul class="list">
+            <li>Kisi yaad aane wale ko phone karo.</li>
+            <li>Padosi ko mithai ka dabba de aao.</li>
+            <li>Khaane se pehle sadqa zaroor do.</li>
+          </ul>
+          <a class="btn primary" href="reminders.html">Eid surprise kholo</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="gatherings" class="section cards">
+      <div class="section__heading">
+        <p class="eyebrow">Moments</p>
+        <h2>Milkar mano</h2>
+        <p>Sara din bas chhoti chhoti khushiyan jodo.</p>
+      </div>
+      <div class="card-grid">
+        <article class="card">
+          <p class="card-kicker">Morning</p>
+          <h3>Namaaz & shukr</h3>
+          <p>Safai se sajdo, accha libaas pehno aur takbeerat se ghar bhar do.</p>
+        </article>
+        <article class="card">
+          <p class="card-kicker">Afternoon</p>
+          <h3>Dil khol do</h3>
+          <p>Jo dost family se door hai use bulao. Chai, khajoor aur kahaniyaan share karo.</p>
+        </article>
+        <article class="card">
+          <p class="card-kicker">Evening</p>
+          <h3>Chaand ke saath daawat</h3>
+          <p>Kuch meetha rakho, bahar niklo aur chaand sitaron ko dekhte hue khaao.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section banner">
+      <div>
+        <p class="eyebrow">Surprise</p>
+        <h2>Ek chhota sa Eid surprise aapke liye.</h2>
+        <p>Dil se likhi dua aur chhota sa gift, bas aapke liye.</p>
+      </div>
+      <a class="btn ghost" href="reminders.html">Open Your Eid Gift 🎁</a>
+    </section>
+
+    <section class="section message">
+      <div>
+        <p class="eyebrow">Send Eid Message</p>
+        <h2>Dil ki baat likhe</h2>
+        <p>Yahan apna Eid Mubarak message likhein aur WhatsApp par bhej dein.</p>
+        <textarea id="wh-msg" rows="3" placeholder="Yahan apna Eid Mubarak message likhein..."></textarea>
+      </div>
+      <button class="btn primary" id="wh-send">Send on WhatsApp</button>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="brand">
+      <span class="brand-icon">☾</span>
+      <span class="brand-text">عيد مبارك</span>
+      <span class="brand-icon">★</span>
+    </div>
+    <p>This website is made for Rehan and his family.</p>
+    <div class="footer-links">
+      <a href="#blessings">Blessings</a>
+      <a href="reminders.html">Reminders</a>
+      <a href="#gatherings">Gatherings</a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
